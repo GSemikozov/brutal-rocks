@@ -1,0 +1,30 @@
+{
+  "name": "brutal-rocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-concat": "*",
+    "gulp-concat-css": "*",
+    "gulp-cssmin": "*",
+    "gulp-imagemin": "*",
+    "gulp-jshint": "*",
+    "gulp-livereload": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "gulp-watch": "*",
+    "imagemin-jpegoptim": "*",
+    "imagemin-optipng": "*",
+    "imagemin-svgo": "*",
+    "tiny-lr": "*"
+  },
+  "author": "Herman Semykozov",
+  "private": true,
+  "devDependencies": {
+
+  }
+}
