@@ -32,6 +32,7 @@ html {
   -ms-text-size-adjust: 100%; }
 
 body {
+  background-color: #fff;
   font-family: 'gilroyregular', sans-serif;
   font-size: 16px;
   color: #383A49;
@@ -100,8 +101,7 @@ p {
       display: block; } }
   .wrapper .content {
     display: table-row;
-    height: 100%;
-    background-color: #f3f4f5; }
+    height: 100%; }
     @media only screen and (max-width: 767px) {
       .wrapper .content {
         display: block;
@@ -385,7 +385,10 @@ section {
   overflow-x: hidden;
   background-color: #fff; }
   section.section-1 {
-    margin-top: -80px; }
+    margin-top: -60px;
+    position: relative;
+    z-index: 9999;
+    background: transparent; }
     section.section-1 > .container {
       position: relative;
       padding-top: 80px; }
