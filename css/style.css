@@ -368,6 +368,9 @@ ul {
     font-family: 'Josefin Sans', sans-serif;
     -webkit-transition: all 0.3s;
     transition: all 0.3s; }
+    @media only screen and (max-width: 767px) {
+      #header .logo-text {
+        display: none; } }
   #header.sm {
     height: 120px;
     -webkit-transition: all 0.3s;
