@@ -99,7 +99,8 @@ p {
   overflow: hidden; }
   @media only screen and (max-width: 767px) {
     .wrapper {
-      display: block; } }
+      display: block;
+      height: auto; } }
   .wrapper .content {
     display: table-row;
     height: 100%; }
