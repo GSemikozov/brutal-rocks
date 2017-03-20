@@ -74,6 +74,9 @@ p {
   p.decoration {
     padding-bottom: 40px;
     position: relative; }
+    @media only screen and (max-width: 767px) {
+      p.decoration {
+        margin: 80px 5% 0; } }
     p.decoration:after {
       content: '';
       position: absolute;
@@ -135,6 +138,9 @@ ul {
   padding: 0; }
   ul li {
     margin-right: 30px; }
+    @media only screen and (max-width: 767px) {
+      ul li {
+        margin-bottom: 10px; } }
     ul li:last-child {
       margin-right: 0; }
 
@@ -314,9 +320,20 @@ ul {
   .carousel .item {
     height: 880px;
     padding-top: 200px; }
+    @media only screen and (max-width: 767px) {
+      .carousel .item {
+        padding-top: 300px; } }
+    @media only screen and (max-width: 767px) {
+      .carousel .item img.full-height {
+        max-width: 100%;
+        margin-top: 100px; } }
     .carousel .item .carousel-caption {
       top: 0;
       padding-top: 0; }
+      @media only screen and (max-width: 767px) {
+        .carousel .item .carousel-caption {
+          left: 5%;
+          right: 5%; } }
   .carousel .carousel-indicators {
     bottom: 0; }
     .carousel .carousel-indicators li {
@@ -465,6 +482,13 @@ section {
       section.section-2 > .bg-grey.bg-grey-aside > .container > .rowf2 {
         position: relative;
         z-index: 3; }
+        @media only screen and (max-width: 767px) {
+          section.section-2 > .bg-grey.bg-grey-aside > .container > .rowf2 img.inline-block {
+            max-width: 320px;
+            display: block;
+            margin: auto; } }
+        section.section-2 > .bg-grey.bg-grey-aside > .container > .rowf2 p.decoration {
+          margin: 80px 5% 250px; }
 
 footer > .bg-white {
   background-color: #fff; }
@@ -498,14 +522,24 @@ footer > .bg-white {
 
 footer > .bg-dark {
   padding: 20px 0 100px; }
+  @media only screen and (max-width: 767px) {
+    footer > .bg-dark {
+      padding: 20px 0 150px; } }
   footer > .bg-dark > * {
     color: #FEFEFE; }
   footer > .bg-dark > .container {
     padding-right: 100px;
     position: relative; }
+    @media only screen and (max-width: 767px) {
+      footer > .bg-dark > .container {
+        padding-right: 0;
+        margin: 0 5%; } }
 
 footer .copyright {
   max-width: 40%; }
+  @media only screen and (max-width: 767px) {
+    footer .copyright {
+      max-width: 100%; } }
 
 footer .footer-logo {
   position: absolute;
@@ -516,8 +550,46 @@ footer .footer-logo {
   font-weight: bold;
   font-family: 'Josefin Sans', sans-serif;
   text-decoration: none; }
+  @media only screen and (max-width: 767px) {
+    footer .footer-logo {
+      left: 50%;
+      top: 100%;
+      margin-left: -33px;
+      bottom: 10px; } }
 
 .fixed {
   position: fixed;
   margin-top: 0;
   top: 0; }
+
+@media only screen and (max-width: 767px) {
+  .hidden-xs {
+    display: none; } }
+
+@media only screen and (max-width: 991px) {
+  .hidden-xs {
+    display: block; } }
+
+@media only screen and (max-width: 1199px) {
+  .hidden-xs {
+    display: block; } }
+
+@media only screen and (max-width: 1200px) {
+  .hidden-xs {
+    display: block; } }
+
+@media only screen and (max-width: 767px) {
+  .visible-xs {
+    display: block; } }
+
+@media only screen and (max-width: 991px) {
+  .visible-xs {
+    display: none; } }
+
+@media only screen and (max-width: 1199px) {
+  .visible-xs {
+    display: none; } }
+
+@media only screen and (max-width: 1200px) {
+  .visible-xs {
+    display: none; } }
