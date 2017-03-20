@@ -566,15 +566,7 @@ footer .footer-logo {
   .hidden-xs {
     display: none; } }
 
-@media only screen and (max-width: 991px) {
-  .hidden-xs {
-    display: block; } }
-
-@media only screen and (max-width: 1199px) {
-  .hidden-xs {
-    display: block; } }
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 768px) {
   .hidden-xs {
     display: block; } }
 
@@ -582,14 +574,6 @@ footer .footer-logo {
   .visible-xs {
     display: block; } }
 
-@media only screen and (max-width: 991px) {
-  .visible-xs {
-    display: none; } }
-
-@media only screen and (max-width: 1199px) {
-  .visible-xs {
-    display: none; } }
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 767px) {
   .visible-xs {
     display: none; } }
